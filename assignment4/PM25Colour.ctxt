@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=PM25Colour
+comment0.text=\n\ colour\ definition\ for\ pollutant\ pm2.5\n\n\ @author\ Raihan\ Islam\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=PM25Colour()
+comment2.params=value
+comment2.target=javafx.scene.paint.Color\ getColor(double)
+numComments=3

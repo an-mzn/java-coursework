@@ -1,0 +1,24 @@
+#general-button {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-border-color: black;
+    -fx-border-width: 0 0 1 0;
+}
+/* Hover state */
+#general-button:hover {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+/* Selected State */
+#general-button:selected {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.toggle-button:selected:hover{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}

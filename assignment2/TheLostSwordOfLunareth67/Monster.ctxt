@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Monster
+comment0.text=\n\ Represents\ a\ monster\ in\ the\ game.\ Monsters\ have\ a\ name,\ health\ points,\n\ attack\ strength,\ and\ an\ image\ representation\ (for\ text-based\ display).\n
+comment1.params=name\ health\ attack\ image
+comment1.target=Monster(java.lang.String,\ int,\ int,\ java.lang.String)
+comment1.text=\n\ Creates\ a\ new\ Monster\ object.\n\ @param\ name\ The\ monster's\ name.\n\ @param\ health\ The\ monster's\ initial\ health\ points.\n\ @param\ attack\ The\ monster's\ attack\ strength.\n\ @param\ image\ A\ text-based\ image\ representing\ the\ monster.\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Returns\ the\ monster's\ name.\n\ @return\ The\ monster's\ name.\n
+comment3.params=
+comment3.target=java.lang.String\ getImage()
+comment3.text=\n\ Returns\ the\ monster's\ image\ (text-based\ representation).\n\ @return\ The\ monster's\ image.\n
+comment4.params=
+comment4.target=int\ getHealth()
+comment4.text=\n\ Returns\ the\ monster's\ current\ health\ points.\n\ @return\ The\ monster's\ health.\n
+comment5.params=health
+comment5.target=void\ setHealth(int)
+comment5.text=\n\ Sets\ the\ monster's\ health\ points.\n\ @param\ health\ The\ new\ health\ points\ for\ the\ monster.\n
+comment6.params=
+comment6.target=int\ getAttack()
+comment6.text=\n\ Returns\ the\ monster's\ attack\ strength.\n\ @return\ The\ monster's\ attack\ strength.\n
+comment7.params=
+comment7.target=boolean\ isAlive()
+comment7.text=\n\ Checks\ if\ the\ monster\ is\ still\ alive\ (health\ >\ 0).\n\ @return\ True\ if\ the\ monster\ is\ alive,\ false\ otherwise.\n
+numComments=8

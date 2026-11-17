@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Goat
+comment0.text=\n\ Class\ implementing\ the\ Goat\ animal\n\n\ @author\ Karim\ Malik\n\ @author\ Ayan\ Mamun\n\ @version\ 1.0.0\n
+comment1.params=location\ age\ gender
+comment1.target=Goat(simulation.common.Location,\ int,\ Gender)
+comment2.params=location
+comment2.target=Goat\ newborn(simulation.common.Location)
+comment3.params=location
+comment3.target=Goat\ random(simulation.common.Location)
+comment4.params=currentField\ nextFieldState\ hour\ weatherCondition
+comment4.target=void\ act(simulation.field.Field,\ simulation.field.Field,\ float,\ simulation.weather.WeatherCondition)
+numComments=5

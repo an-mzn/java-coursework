@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=WeatherManager
+comment0.text=\n\ Manages\ the\ weather\ cycle\ throughout\ a\ simulation.\ The\ Cycle\ is\ ordered,\ but\n\ the\ length\ of\ each\ stage\ is\ randomised\ within\ a\ specified\ range.\n\n\ @author\ Karim\ Malik\n\ @author\ Ayan\ Mamun\n\ @version\ 1.0.0\n
+comment1.params=clock\ weatherCycle
+comment1.target=WeatherManager(simulation.Clock,\ WeatherCycle)
+comment1.text=\n\ @param\ clock\ \ \ \ \ \ \ \ Reference\ to\ the\ clock\ used\ in\ the\ simulation\n\ @param\ cycleBuilder\ A\ weather\ cycle\ builder\ describing\ the\ stages\ to\ add\ to\ the\ cycle.\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ builder\ will\ be\ built\ in\ this\ constructor.\n
+comment2.params=index
+comment2.target=void\ setWeatherCycle(int)
+comment2.text=\n\ @param\ index\ new\ index\ for\ the\ current\ stage.\ (must\ be\ a\ valid\ index)\n
+comment3.params=
+comment3.target=void\ updateWeather()
+comment3.text=\n\ Updates\ the\ state\ of\ the\ weather\ manager.\ Must\ be\ called\ every\ step\ of\ the\ simulation.\n\ After\ calling\ this\ method,\ getCurrentWeather()\ can\ be\ used\ to\ get\ the\ updated\ weather.\n
+comment4.params=
+comment4.target=WeatherCondition\ getCurrentWeather()
+comment4.text=\n\ Gets\ the\ current\ weather\ condition\ given\ the\ current\ time\ in\ the\ simulation\ clock.\n\n\ @return\ The\ current\ weather\ condition.\n
+comment5.params=
+comment5.target=void\ reset()
+numComments=6

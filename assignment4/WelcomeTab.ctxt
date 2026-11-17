@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WelcomeTab
+comment0.text=\n\ Represents\ the\ welcome\ tab\ for\ the\ application,\ displaying\ a\ welcome\ message\ and\ instructions.\n\ @author\ Karim\ He\ \n\=\=\=\=\=\=\=\n\n\ @version\ 2.0\n
+comment1.params=tabPane
+comment1.target=WelcomeTab(javafx.scene.control.TabPane)
+comment1.text=\n\ Constructor\ for\ the\ WelcomeTab.\n\n\ @param\ tabPane\ The\ TabPane\ to\ which\ this\ tab\ will\ be\ added.\n
+comment2.params=tabPane
+comment2.target=void\ goToMapTab(javafx.scene.control.TabPane)
+comment2.text=\n\ Navigates\ to\ the\ Map\ tab\ when\ the\ button\ is\ pressed\n\n\ @param\ tabPane\ The\ parent\ TabPane.\n
+comment3.params=parent\ tabName
+comment3.target=javafx.scene.control.Tab\ findTab(javafx.scene.control.TabPane,\ java.lang.String)
+comment3.text=\n\ Finds\ a\ tab\ by\ its\ name.\n\n\ @param\ parent\ \ The\ TabPane\ to\ search\ within.\n\ @param\ tabName\ The\ name\ of\ the\ tab\ to\ find.\n\ @return\ The\ Tab\ object\ if\ found,\ null\ otherwise.\n
+numComments=4

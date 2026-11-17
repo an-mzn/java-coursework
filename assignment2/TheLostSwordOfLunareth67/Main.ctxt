@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ \ Entry\ point\ for\ the\ game.\n\ \ This\ Main\ class\ creates\ all\ the\ others.\n\ \n\ @author\ Ayan\ Mamun\n\ @version\ 1.0\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

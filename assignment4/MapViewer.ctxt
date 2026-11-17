@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MapViewer
+comment0.text=\n\ The\ main\ application\ class\ for\ the\ London\ Air\ Pollution\ Viewer.\n\ It\ is\ responsible\ for\ creating\ the\ UI\ and\ loading\ data.\n\n\ @author\ Ayan\ Mamun,\ Raihan\ Islam,\ Abeer\ Hussain,\ Karim\ He\n\ @version\ 1.0\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\n\ The\ main\ entry\ point\ for\ the\ JavaFX\ application.\n\n\ @param\ stage\ The\ primary\ stage\ for\ this\ application,\ onto\ which\ the\ scene\ and\ UI\ components\ will\ be\ set.\n
+comment2.params=parent
+comment2.target=WelcomeTab\ createWelcomeTab(javafx.scene.control.TabPane)
+comment2.text=\n\ Creates\ the\ welcome\ tab\ and\ adds\ it\ to\ the\ TabPane.\n\n\ @param\ parent\ The\ TabPane\ to\ which\ the\ welcome\ tab\ is\ added.\n
+comment3.params=parent
+comment3.target=void\ createStatsTab(javafx.scene.control.TabPane)
+comment3.text=\n\ Creates\ the\ pollution\ stats\ tab\ and\ adds\ it\ to\ the\ TabPane.\n\n\ @param\ parent\ The\ TabPane\ to\ which\ the\ stats\ tab\ is\ added.\n
+comment4.params=parent
+comment4.target=void\ createComparisonTab(javafx.scene.control.TabPane)
+comment4.text=\n\ Creates\ the\ year\ comparison\ tab\ and\ adds\ it\ to\ the\ TabPane.\n\n\ @param\ parent\ The\ TabPane\ to\ which\ the\ comparison\ tab\ is\ added.\n
+comment5.params=
+comment5.target=void\ preloadAllPollutionData()
+comment5.text=\n\ Preloads\ all\ pollution\ data\ for\ different\ pollutants\ and\ years\ to\ improve\ performance.\n
+comment6.params=pollutant\ year
+comment6.target=DataSet\ getPreloadedData(java.lang.String,\ java.lang.String)
+comment6.text=\n\ Retrieves\ preloaded\ pollution\ data\ for\ a\ specific\ pollutant\ and\ year.\n\n\ @param\ pollutant\ The\ pollutant\ type\ (e.g.,\ "no2",\ "pm10",\ "pm2.5").\n\ @param\ year\ The\ year\ for\ which\ to\ retrieve\ the\ data.\n\ @return\ The\ DataSet\ containing\ the\ pollution\ data,\ or\ null\ if\ the\ data\ is\ not\ found.\n
+numComments=7

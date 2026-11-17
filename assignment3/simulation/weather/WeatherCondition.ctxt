@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=WeatherCondition
+comment0.text=\n\ Enum\ class\ representing\ different\ weather\ conditions.\n\n\ @author\ Karim\ Malik\n\ @author\ Ayan\ Mamun\n\ @version\ 1.0.0\n
+comment1.params=name
+comment1.target=WeatherCondition(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+numComments=3

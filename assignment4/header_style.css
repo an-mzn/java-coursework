@@ -1,0 +1,59 @@
+/* Style the TabPane */
+.tab-pane {
+    -fx-tab-min-width: 150px;
+    -fx-tab-max-width: 150px; /* Adjust as needed */
+    -fx-tab-min-height: 30px;
+    -fx-tab-max-height: 30px; /* Adjust as needed */
+    -fx-pref-height: 30px;  /* Set a preferred height if necessary*/
+    -fx-padding: 0;
+}
+
+/* Style the Tab headers */
+.tab {
+    -fx-background-color: #000; /* Black background */
+    -fx-focus-color: transparent; /* Removes the focus outline */
+    -fx-padding: 0;
+    -fx-margin: 0;
+}
+
+/* Style the Tab labels */
+.tab .tab-label {
+    -fx-text-fill: #fff;  /* White text color */
+    -fx-font-size: 14px;  /* Font size */
+    -fx-padding: 0;
+    -fx-margin: 0;
+    /* Omit font-family to use the default font */
+}
+
+/* Style the selected Tab */
+.tab:selected {
+    -fx-background-color: #000; /* Black background */
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-margin: 0;
+}
+
+/* Style the selected Tab label */
+.tab:selected .tab-label {
+    -fx-text-fill: #fff;  /* White text color */
+    -fx-font-weight: bold; /* Font weight */
+    -fx-padding: 0;
+    -fx-margin: 0;
+    /* Omit font-family to use the default font */
+}
+
+/* Style the tab header area itself */
+.tab-header-area {
+    -fx-background-color: #000; /* Ensure header area is black */
+    -fx-padding: 0;
+    -fx-margin: 0;
+}
+
+.tab-header-background {
+    -fx-background-color: #000; /* Also make sure the header background is black */
+}
+
+/* Add the underline on hover */
+.tab:hover .tab-label {
+    -fx-underline: true; /* This is the underline for when you hover*/
+}

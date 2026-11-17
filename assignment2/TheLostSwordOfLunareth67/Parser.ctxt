@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Parser
+comment0.text=\n\ This\ parser\ reads\ user\ input\ and\ attempts\ to\ interpret\ it\ as\ a\ game\ command.\n\ It\ reads\ a\ line\ from\ the\ console\ and\ parses\ it\ into\ a\ Command\ object.\ \ The\n\ parser\ handles\ commands\ with\ up\ to\ three\ words\ and\ is\ case-insensitive.\n\n\ @author\ Michael\ K\u00F6lling,\ David\ J.\ Barnes,\ and\ Ayan\ Mamun\n\ @version\ 2024.11.28\n
+comment1.params=
+comment1.target=Parser()
+comment1.text=\n\ Creates\ a\ new\ Parser\ object.\ \ Initializes\ the\ CommandWords\ object.\n
+comment2.params=reader
+comment2.target=Command\ getCommand(java.util.Scanner)
+comment2.text=\n\ Obtains\ the\ next\ command\ from\ the\ user.\n\ @param\ reader\ The\ Scanner\ object\ to\ read\ from\ (typically\ System.in).\n\ @return\ A\ Command\ object\ representing\ the\ parsed\ command.\n
+comment3.params=
+comment3.target=void\ showCommands()
+comment3.text=\n\ Prints\ a\ list\ of\ valid\ command\ words\ to\ the\ console.\n
+numComments=4

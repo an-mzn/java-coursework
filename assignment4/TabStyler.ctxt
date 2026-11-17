@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=TabStyler
+comment0.text=\n\ Write\ a\ description\ of\ class\ TabStyler\ here.\n\n\ @author\ Ayan\ Mamun\ \ \n\ @version\ 1.0\n
+comment1.params=tabPane
+comment1.target=void\ applyHeaderStyle(javafx.scene.control.TabPane)
+comment1.text=\n\ Applies\ the\ header\ style\ to\ the\ given\ TabPane.\n\n\ @param\ tabPane\ The\ TabPane\ to\ style.\n
+numComments=2

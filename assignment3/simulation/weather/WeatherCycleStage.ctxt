@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=WeatherCycleStage
+comment0.text=\n\ Record\ class\ for\ storing\ weather\ stage\ parameters.\n\ @param\ weatherCondition\ Weather\ condition\ for\ the\ stage.\n\ @param\ minHours\ Minimum\ length\ of\ the\ stage\ in\ hours.\n\ @param\ maxHours\ Maximum\ length\ of\ the\ stage\ in\ hours.\n
+comment1.params=rand
+comment1.target=int\ generateRandomHour(java.util.Random)
+comment1.text=\n\ @param\ rand\ Reference\ to\ a\ random\ object\ to\ use.\n\ @return\ A\ random\ number\ of\ hours\ in\ between\ the\ specified\ range.\n
+numComments=2

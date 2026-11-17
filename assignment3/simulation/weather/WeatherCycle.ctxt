@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=WeatherCycle
+comment0.text=\n\ Class\ representing\ a\ weather\ cycle\ consisting\ of\ at\ least\ one\ stage.\n\ This\ class\ uses\ the\ builder\ pattern\ to\ streamline\ cycle\ configuration.\\\n\n\ @author\ Karim\ Malik\n\ @author\ Ayan\ Mamun\n\ @version\ 1.0.0\n\ @see\n
+comment1.params=
+comment1.target=WeatherCycle.Builder\ builder()
+comment2.params=builder
+comment2.target=WeatherCycle(WeatherCycle.Builder)
+comment3.params=
+comment3.target=java.util.List\ getCycle()
+comment3.text=\n\ Accessor\ for\ the\ weather\ cycle's\ stages.\n\n\ @return\ list\ of\ cycle\ stages\n
+numComments=4

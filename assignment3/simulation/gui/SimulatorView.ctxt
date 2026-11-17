@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SimulatorView
+comment0.text=\n\ A\ graphical\ view\ of\ the\ simulation\ grid.\n\ The\ view\ displays\ a\ colored\ rectangle\ for\ each\ location\n\ representing\ its\ contents.\ It\ uses\ a\ default\ background\ color.\n\n\ @author\ David\ J.\ Barnes\n\ @author\ Michael\ K\u00F6lling\n\ @author\ Karim\ Malik\n\ @author\ Ayan\ Mamun\n\ @version\ 7.1\n
+comment1.params=height\ width\ fieldStats
+comment1.target=SimulatorView(int,\ int,\ simulation.field.FieldStats)
+comment1.text=\n\ Create\ a\ view\ of\ the\ given\ width\ and\ height.\n\n\ @param\ height\ \ \ \ \ The\ simulation's\ height.\n\ @param\ width\ \ \ \ \ \ The\ simulation's\ width.\n\ @param\ fieldStats\ Reference\ to\ the\ field\ stats\ instance.\n
+comment2.params=simulationClock\ weatherCondition\ field
+comment2.target=void\ showStatus(simulation.Clock,\ simulation.weather.WeatherCondition,\ simulation.field.Field)
+comment2.text=\n\ Show\ the\ current\ status\ of\ the\ field.\n\n\ @param\ step\ \ Which\ iteration\ step\ it\ is.\n\ @param\ field\ The\ field\ whose\ status\ is\ to\ be\ displayed.\n
+numComments=3

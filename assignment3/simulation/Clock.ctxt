@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.target=Clock
+comment0.text=\n\ Helps\ with\ calculations\ involving\ time\ and\ provides\ a\ way\ for\ entities\ to\n\ find\ the\ time\ in\ 24-hour\ format.\n\n\ @author\ Karim\ Malik\n\ @author\ Ayan\ Mamun\n\ @version\ 1.0.0\n
+comment1.params=
+comment1.target=Clock()
+comment2.params=
+comment2.target=void\ advanceTime()
+comment2.text=\n\ Advance\ the\ time\ by\ one\ step.\n
+comment3.params=
+comment3.target=float\ getHour()
+comment3.text=\n\ Accessor\ for\ the\ current\ hour\ in\ 24-hour\ format\n\n\ @return\ 24-hour\ in\ decimal\ format\ (e.g.\ 0.5\ \=\ 30\ mins,\ so\ 07\:30\ is\ 7.5)\n
+comment4.params=
+comment4.target=int\ getTotalHoursPassed()
+comment4.text=\n\ Calculates\ the\ number\ of\ in-simulation\ hours\ that\ have\ passed\ since\ the\ simulation\ started.\n\n\ @return\ number\ of\ hours\ since\ start.\n
+comment5.params=
+comment5.target=int\ getStep()
+comment5.text=\n\ Gets\ the\ current\ step\ of\ the\ simulation.\ This\ starts\ at\ 0\ and\ increases\ by\ 1\ each\ step.\n\n\ @return\ The\ current\ step\ count.\n
+comment6.params=
+comment6.target=void\ reset()
+comment6.text=\n\ Resets\ the\ clock\ to\ the\ zero.\ Should\ be\ called\ when\ the\ simulation\ is\ reset.\n
+comment7.params=
+comment7.target=java.lang.String\ getTimeString()
+comment7.text=\n\ Gets\ the\ formatted\ time\ for\ the\ current\ simulated\ day.\n\n\ @return\ A\ 24-hour\ formatted\ string.\n
+comment8.params=hours
+comment8.target=int\ hoursToSteps(int)
+comment8.text=\n\ Calculates\ the\ number\ of\ simulation\ steps\ given\ a\ desired\ number\ of\ in-simulation\ hours.\n\n\ @param\ hours\ Number\ of\ hours.\n\ @return\ Number\ of\ simulation\ steps.\n
+comment9.params=days
+comment9.target=int\ daysToSteps(int)
+comment9.text=\n\ Calculates\ the\ number\ of\ simulation\ steps\ given\ a\ desired\ number\ of\ in-simulation\ days.\n\n\ @param\ days\ Number\ of\ days.\n\ @return\ Number\ of\ simulation\ steps.\n
+numComments=10

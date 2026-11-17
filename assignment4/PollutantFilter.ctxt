@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PollutantFilter
+comment0.text=\n\ The\ `PollutantFilter`\ class\ allows\ filtering\ of\ pollutant\ data\ points\ based\ on\ their\ values\n\ relative\ to\ thresholds\ defined\ by\ a\ `PollutantColour`\ object.\ \ It\ provides\ the\ functionality\n\ to\ show\ only\ high,\ mid,\ or\ low\ pollutant\ values,\ or\ to\ show\ all\ data\ points\ without\ filtering.\n\ \n\ @author\ Karim\ He\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=PollutantFilter()
+comment1.text=\n\ Constructor\ for\ the\ PollutantFilter\ class.\n\ Initializes\ the\ filterType\ to\ "All"\ by\ default.\ This\ means\ no\ filtering\n\ is\ applied\ initially.\n
+comment2.params=filterType
+comment2.target=void\ setFilterType(java.lang.String)
+comment2.text=\n\ Sets\ the\ filter\ type\ to\ a\ specific\ value.\ This\ determines\ which\ data\ points\n\ will\ be\ displayed\ based\ on\ their\ pollutant\ value\ relative\ to\ thresholds\n\ defined\ by\ the\ PollutantColour\ object.\n\n\ @param\ filterType\ The\ type\ of\ filter\ to\ apply.\ \ Valid\ values\ are\ "High",\ "Mid",\ "Low",\ or\ "All".\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Any\ other\ value\ is\ treated\ as\ "All".\n
+comment3.params=value\ pollutantColour
+comment3.target=boolean\ shouldDrawDataPoint(double,\ PollutantColour)
+comment3.text=\n\ Determines\ whether\ a\ given\ data\ point\ should\ be\ drawn\ based\ on\ the\ filter\ type\n\ and\ the\ pollutant\ value.\ \ It\ compares\ the\ pollutant\ value\ to\ the\ high,\ mid,\ and\ low\n\ thresholds\ associated\ with\ the\ given\ PollutantColour\ object.\n\n\ @param\ value\ \ \ \ \ \ \ \ \ \ \ The\ pollutant\ value\ of\ the\ data\ point.\n\ @param\ pollutantColour\ The\ PollutantColour\ object\ that\ provides\ the\ threshold\ values\ (lowValue,\ midValue)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ for\ different\ pollutant\ levels.\n\ @return\ true\ if\ the\ data\ point\ should\ be\ drawn\ (visible)\ based\ on\ the\ current\ filter;\n\ \ \ \ \ \ \ \ \ false\ otherwise.\n
+comment4.params=
+comment4.target=java.lang.String\ getFilterType()
+comment4.text=\n\ Gets\ the\ current\ filter\ type.\n\n\ @return\ The\ current\ filter\ type\ (e.g.,\ "High",\ "Mid",\ "Low",\ "All").\n
+numComments=5

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Plant
+comment0.text=\n\ Common\ elements\ of\ all\ Entities.\n\n\ @author\ David\ J.\ Barnes\n\ @author\ Michael\ K\u00F6lling\n\ @author\ Karim\ Malik\n\ @author\ Ayan\ Mamun\n\ @version\ 1.0.0\n
+comment1.params=location\ age\ maxAge\ color
+comment1.target=Plant(simulation.common.Location,\ int,\ int,\ java.awt.Color)
+comment2.params=nextFieldState\ distance\ maxSprouts\ entityFactory
+comment2.target=void\ sprout(simulation.field.Field,\ int,\ int,\ simulation.entities.EntityFactory)
+comment2.text=\n\ Surrounds\ the\ plant\ with\ a\ random\ number\ of\ new\ plants\ if\ space\ is\ available.\n\n\ @param\ nextFieldState\ Next\ field\ state\ to\ place\ plants\ in.\n\ @param\ distance\ \ \ \ \ \ \ Maximum\ distance\ to\ spawn\ new\ plants\ in.\n\ @param\ maxSprouts\ \ \ \ \ Maximum\ number\ of\ plants\ to\ randomly\ place.\n\ @param\ entityFactory\ \ A\ function/method\ creating\ a\ new\ plant\ at\ a\ given\ location.\n
+numComments=3

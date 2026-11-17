@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=PollutantColour
+comment0.text=\n\ abstract\ class\ which\ determines\ the\ colour\ and\ the\ values\ associated\ \n\ with\ that\ colour\ for\ a\ pollutant\n\n\ @author\ Raihan\ Islam\n\ @version\ 1.0\n
+comment1.params=pollutantName\ low\ mid
+comment1.target=PollutantColour(java.lang.String,\ int,\ int)
+comment2.params=value
+comment2.target=javafx.scene.paint.Color\ getColor(double)
+comment2.text=\n\ @return\ the\ colour\ depending\ on\ the\ pollution\ value\n\ @param\ value\ the\ data\ point's\ pollution\ value\n
+comment3.params=gc\ x\ y\ value
+comment3.target=void\ drawDataPoint(javafx.scene.canvas.GraphicsContext,\ double,\ double,\ double)
+comment3.text=\n\ draws\ a\ single\ data\ point\ onto\ the\ map\n\ @param\ gc\ the\ graphics\ context\ to\ draw\ onto\ the\ canvas\n\ @param\ x\ the\ x\ coordinate\ of\ the\ pixel\ to\ draw\ at\n\ @param\ y\ the\ y\ cooordinate\ of\ the\ pixel\ to\ draw\ at\n\ @param\ value\ the\ pollution\ value\ of\ the\ data\ point\n
+comment4.params=
+comment4.target=int\ getLowValue()
+comment4.text=\n\ @return\ the\ lowValue\n
+comment5.params=
+comment5.target=int\ getMidValue()
+comment5.text=\n\ @return\ the\ midValue\n
+numComments=6

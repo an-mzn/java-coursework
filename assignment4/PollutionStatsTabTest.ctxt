@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PollutionStatsTabTest
+comment0.text=\n\ Unit\ test\ class\ for\ the\ PollutionStatsTab\ class.\n\ \n\ This\ class\ contains\ tests\ for\ the\ PollutionStatsTab\ class,\ which\ displays\n\ pollution\ data,\ allows\ selection\ of\ years\ and\ pollutants,\ and\ updates\ a\ bar\ chart.\n\ Each\ test\ verifies\ the\ functionality\ of\ specific\ components\ and\ methods,\ \n\ such\ as\ selecting\ years,\ selecting\ pollutants,\ computing\ average\ and\ highest\ values,\n\ and\ updating\ the\ graph.\n\ \n\ @author\ Abeer\ Hussain\n\ @version\ 1.0\n>>>>>>>\ 103870f5a35cbdf91e3df631e5db644f5523673a\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ Initializes\ the\ PollutionStatsTab\ object\ before\ each\ test.\n\ Sets\ up\ a\ mock\ DataLoader\ to\ simulate\ data\ loading.\n
+comment2.params=
+comment2.target=void\ testSelectYearButton()
+comment2.text=\n\ Tests\ the\ selection\ of\ a\ year\ (2020)\ button\ in\ the\ UI.\n\ Verifies\ that\ the\ year\ "2020"\ is\ selected\ after\ the\ button\ is\ clicked.\n
+comment3.params=
+comment3.target=void\ testSelectPollutantButton()
+comment3.text=\n\ Tests\ the\ selection\ of\ a\ pollutant\ (NO2)\ button\ in\ the\ UI.\n\ Verifies\ that\ "no2"\ is\ the\ selected\ pollutant\ after\ the\ button\ is\ clicked.\n
+comment4.params=
+comment4.target=void\ testComputeAverageValue()
+comment4.text=\n\ Tests\ the\ computation\ of\ the\ average\ pollutant\ value.\n\ Verifies\ that\ the\ computed\ average\ for\ 2020\ is\ correct\ based\ on\ the\ mock\ data.\n
+comment5.params=
+comment5.target=void\ testComputeHighestValue()
+comment5.text=\n\ Tests\ the\ computation\ of\ the\ highest\ pollutant\ value.\n\ Verifies\ that\ the\ computed\ highest\ value\ for\ 2020\ is\ correct\ based\ on\ the\ mock\ data.\n
+comment6.params=
+comment6.target=void\ testGraphData()
+comment6.text=\n\ Tests\ the\ data\ displayed\ in\ the\ BarChart\ after\ selecting\ a\ year\ and\ pollutant.\n\ Verifies\ that\ the\ graph\ contains\ correct\ data\ points\ for\ the\ selected\ year\ and\ pollutant.\n
+comment7.params=filePath
+comment7.target=DataSet\ createMockDataSet(java.lang.String)
+comment7.text=\n\ Helper\ method\ to\ create\ a\ mock\ DataSet\ for\ testing.\n\ This\ method\ simulates\ a\ dataset\ containing\ pollutant\ values\ for\ specific\ years.\n\ \n\ @param\ filePath\ the\ file\ path\ used\ to\ simulate\ loading\ a\ data\ file\n\ @return\ a\ DataSet\ with\ mock\ data\n
+numComments=8

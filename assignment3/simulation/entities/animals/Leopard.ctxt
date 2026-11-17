@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Leopard
+comment0.text=\n\ Class\ implementing\ the\ Leopard\ animal\n\n\ @author\ Karim\ Malik\n\ @author\ Ayan\ Mamun\n\ @version\ 1.0.0\n
+comment1.params=location\ age\ gender
+comment1.target=Leopard(simulation.common.Location,\ int,\ Gender)
+comment2.params=location
+comment2.target=Leopard\ random(simulation.common.Location)
+comment3.params=location
+comment3.target=Leopard\ newborn(simulation.common.Location)
+comment4.params=currentField\ nextFieldState\ hour\ weatherCondition
+comment4.target=void\ act(simulation.field.Field,\ simulation.field.Field,\ float,\ simulation.weather.WeatherCondition)
+comment4.text=\n\ This\ is\ what\ the\ fox\ does\ most\ of\ the\ time\:\ it\ hunts\ for\n\ rabbits.\ In\ the\ process,\ it\ might\ breed,\ die\ of\ hunger,\n\ or\ die\ of\ old\ age.\n\n\ @param\ currentField\ \ \ \ \ The\ field\ currently\ occupied.\n\ @param\ nextFieldState\ \ \ The\ updated\ field.\n\ @param\ weatherCondition\n
+numComments=5
