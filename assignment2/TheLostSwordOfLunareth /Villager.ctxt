@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Villager
-comment0.text=\n\ Represents\ a\ Villager\ character\ in\ the\ game.\ \ Inherits\ from\ the\ Person\ class.\n
-comment1.params=name\ description\ dialogue
-comment1.target=Villager(java.lang.String,\ java.lang.String,\ java.lang.String)
-comment1.text=\n\ Constructor\ for\ creating\ a\ new\ Villager\ object.\n\ @param\ name\ The\ villager's\ name.\n\ @param\ description\ A\ description\ of\ the\ villager.\n\ @param\ dialogue\ The\ villager's\ dialogue.\n
-numComments=2

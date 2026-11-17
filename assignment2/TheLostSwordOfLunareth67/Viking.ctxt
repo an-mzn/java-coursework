@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Viking
-comment0.text=\n\ Represents\ a\ Viking\ character\ in\ the\ game.\ \ This\ class\ inherits\ from\ the\n\ Person\ class.\n
-comment1.params=name\ description\ dialogue
-comment1.target=Viking(java.lang.String,\ java.lang.String,\ java.lang.String)
-comment1.text=\n\ Constructor\ for\ creating\ a\ new\ Viking\ character.\n\ @param\ name\ The\ name\ of\ the\ Viking.\n\ @param\ description\ A\ description\ of\ the\ Viking.\n\ @param\ dialogue\ The\ dialogue\ spoken\ by\ the\ Viking.\n
-numComments=2
